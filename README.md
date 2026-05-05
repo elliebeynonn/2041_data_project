@@ -3,6 +3,7 @@
 A data-driven investigation into performance trends in athletics. Aiming to compare improvement rates in sprint and endurance events from 1976 to 2025. 
 
 ### Blog Post
+https://hackmd.io/@crEMM-S2Sk6xpNcDdfPDrw/r1KpJ2hpWg
 
 ### Data Source
 
