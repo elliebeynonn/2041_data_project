@@ -9,7 +9,7 @@ The blog post for this project can be found [here](https://hackmd.io/@crEMM-S2Sk
 My data was scraped from [Alltime Athletics](https://www.alltime-athletics.com/) (Peter Larsson, 1997-2026) for academic research purposes only as part of this BEE2041 Empirical Project
 
 ### Project Structure
-'''
+```
 .
 ├── README.md
 ├── analysis.ipynb
@@ -29,7 +29,7 @@ My data was scraped from [Alltime Athletics](https://www.alltime-athletics.com/)
     ├── performances_per_year.png
     ├── rate_of_improvement.png
     └── split_regression.png
-'''
+```
 
 ### How to Replicate
 1. Clone the repository:  
@@ -46,5 +46,5 @@ This will scrape the data, clean it, produce all the figures and run the regress
 Note: The scraping section takes approximately 2-3 minutes to run because of a two second pause between requests.
 
 ### Requirements
-Install the required packages by running the first cell in analysis.ipynb or running this command in your terminal:
+Install the required packages by running the first cell in analysis.ipynb or running this command in your terminal:  
 pip install requests beautifulsoup4 pandas matplotlib seaborn scipy tabulate --break-system-packages
