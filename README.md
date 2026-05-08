@@ -45,6 +45,11 @@ My data was scraped from [Alltime Athletics](https://www.alltime-athletics.com/)
 This will scrape the data, clean it, produce all the figures and run the regression analysis.  
 Note: The scraping section takes approximately 2-3 minutes to run because of a two second pause between requests.
 
+#### To skip re-scraping
+The raw data is already included in data/raw/athletics_raw_complete.csv. To use it instead of re-scraping, find this line in analysis.ipynb:  
+df_raw = pd.read_csv("data/raw/athletics_raw_complete.csv")  
+Skip the scraping cells and run everything else from top to bottom.
+
 ### Requirements
 Install the required packages by running the first cell in analysis.ipynb or running this command in your terminal:  
 pip install requests beautifulsoup4 pandas matplotlib seaborn scipy tabulate --break-system-packages
